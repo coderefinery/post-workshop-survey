@@ -1,11 +1,6 @@
 {
   "sections": [
     {
-      "content": [], 
-      "display_as_section": false, 
-      "type": "section"
-    }, 
-    {
       "content": [
         {
           "description": "", 
@@ -13,16 +8,19 @@
             "display_type": "radio", 
             "options": [
               {
-                "option": "Lund, May 2018"
+                "option": "Kiruna, Nov 2018"
               }, 
               {
-                "option": "Oslo, June 2018"
+                "option": "Uppsala, Dec 2018"
               }, 
               {
-                "option": "Reykjavik, August 2018"
+                "option": "Espoo, Dec 2018"
               }, 
               {
-                "option": "Espoo, May 2018"
+                "option": "Stockholm, March 2019"
+              }, 
+              {
+                "option": "Tartu, April 2019"
               }
             ], 
             "radio_display_type": "horizontal"
@@ -104,6 +102,12 @@
                 "option": "Version control (e.g. Git)"
               }, 
               {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Testing (e.g. pytest)"
+              }, 
+              {
                 "option": "Automated testing (e.g Travis CI)"
               }, 
               {
@@ -113,16 +117,19 @@
                 "option": "Jupyter Notebooks"
               }, 
               {
-                "option": "Code review (e.g. via pull requests)"
+                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages)"
               }, 
               {
-                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+                "option": "Integrated development environments"
               }, 
               {
-                "option": "CMake"
+                "option": "Snakemake"
               }, 
               {
-                "option": " Integrated development environments"
+                "option": "Containers (e.g. Docker or Singularity)"
+              }, 
+              {
+                "option": "Virtual environments (e.g. conda envs)"
               }, 
               {
                 "option": "None of the above"
@@ -131,7 +138,7 @@
           }, 
           "field_type": "multiselect", 
           "is_required": true, 
-          "title": "Which tools/services have you started using as a result of attending the workshop?", 
+          "title": "Which tools/services/workflows have you started using as a result of attending the workshop?", 
           "type": "question"
         }, 
         {
@@ -144,6 +151,12 @@
                 "option": "Version control (e.g. Git)"
               }, 
               {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Testing (e.g. pytest)"
+              }, 
+              {
                 "option": "Automated testing (e.g Travis CI)"
               }, 
               {
@@ -153,16 +166,19 @@
                 "option": "Jupyter Notebooks"
               }, 
               {
-                "option": "Code review (e.g. via pull requests)"
+                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages)"
               }, 
               {
-                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+                "option": "Integrated development environments"
               }, 
               {
-                "option": "CMake"
+                "option": "Snakemake"
               }, 
               {
-                "option": " Integrated development environments"
+                "option": "Containers (e.g. Docker or Singularity)"
+              }, 
+              {
+                "option": "Virtual environments (e.g. conda envs)"
               }, 
               {
                 "option": "None of the above"
@@ -171,7 +187,7 @@
           }, 
           "field_type": "multiselect", 
           "is_required": true, 
-          "title": "Which tools/services are you using better than before as a result of attending the workshop?", 
+          "title": "Which tools/services/workflows are you using better than before as a result of attending the workshop?", 
           "type": "question"
         }, 
         {
@@ -184,6 +200,12 @@
                 "option": "Version control (e.g. Git)"
               }, 
               {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Testing (e.g. pytest)"
+              }, 
+              {
                 "option": "Automated testing (e.g Travis CI)"
               }, 
               {
@@ -193,16 +215,19 @@
                 "option": "Jupyter Notebooks"
               }, 
               {
-                "option": "Code review (e.g. via pull requests)"
+                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages)"
               }, 
               {
-                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+                "option": "Integrated development environments"
               }, 
               {
-                "option": "CMake"
+                "option": "Snakemake"
               }, 
               {
-                "option": " Integrated development environments"
+                "option": "Containers (e.g. Docker or Singularity)"
+              }, 
+              {
+                "option": "Virtual environments (e.g. conda envs)"
               }, 
               {
                 "option": "None of the above"
@@ -211,11 +236,11 @@
           }, 
           "field_type": "multiselect", 
           "is_required": true, 
-          "title": "Which tools/services are you using in the same way as before as a result of attending the workshop?", 
+          "title": "Which tools/services/workflows are you using in the same way as you did before attending the workshop?", 
           "type": "question"
         }, 
         {
-          "description": "Select all that apply.", 
+          "description": "Select all that apply. Note that some tools may not have been taught in your workshop.", 
           "field_data": {
             "max_choices": null, 
             "min_choices": null, 
@@ -224,6 +249,12 @@
                 "option": "Version control (e.g. Git)"
               }, 
               {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Testing (e.g. pytest)"
+              }, 
+              {
                 "option": "Automated testing (e.g Travis CI)"
               }, 
               {
@@ -233,16 +264,19 @@
                 "option": "Jupyter Notebooks"
               }, 
               {
-                "option": "Code review (e.g. via pull requests)"
+                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages)"
               }, 
               {
-                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+                "option": "Integrated development environments"
               }, 
               {
-                "option": "CMake"
+                "option": "Snakemake"
               }, 
               {
-                "option": " Integrated development environments"
+                "option": "Containers (e.g. Docker or Singularity)"
+              }, 
+              {
+                "option": "Virtual environments (e.g. conda envs)"
               }, 
               {
                 "option": "None of the above"
@@ -251,7 +285,7 @@
           }, 
           "field_type": "multiselect", 
           "is_required": true, 
-          "title": "Which tools/services are you not yet using?", 
+          "title": "Which tools/services/workflows are you not yet using?", 
           "type": "question"
         }, 
         {
