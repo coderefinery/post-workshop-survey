@@ -1,0 +1,515 @@
+{
+  "sections": [
+    {
+      "content": [], 
+      "display_as_section": false, 
+      "type": "section"
+    }, 
+    {
+      "content": [
+        {
+          "description": "", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "Lund, May 2018"
+              }, 
+              {
+                "option": "Oslo, June 2018"
+              }, 
+              {
+                "option": "Reykjavik, August 2018"
+              }
+            ], 
+            "radio_display_type": "horizontal"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "Which workshop did you attend?", 
+          "type": "question"
+        }, 
+        {
+          "description": "", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "Undergraduate student"
+              }, 
+              {
+                "option": "Graduate student"
+              }, 
+              {
+                "option": "Postdoc"
+              }, 
+              {
+                "option": "Researcher"
+              }, 
+              {
+                "option": "Professor"
+              }, 
+              {
+                "option": "Research software engineer / Scientific programmer"
+              }, 
+              {
+                "option": "Industry"
+              }, 
+              {
+                "option": "Other"
+              }
+            ], 
+            "radio_display_type": "horizontal"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "What is your current position?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Choose the descriptors that apply to your code", 
+          "field_data": {
+            "max_choices": null, 
+            "min_choices": null, 
+            "options": [
+              {
+                "option": "More reusable"
+              }, 
+              {
+                "option": "More reproducible"
+              }, 
+              {
+                "option": "More modular"
+              }, 
+              {
+                "option": "Better documented"
+              }
+            ]
+          }, 
+          "field_type": "multiselect", 
+          "is_required": true, 
+          "title": "Would you judge your code to be better reusable/reproducible/modular/documented as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Select all that apply. Note that some tools may not have been taught in your workshop.", 
+          "field_data": {
+            "max_choices": null, 
+            "min_choices": null, 
+            "options": [
+              {
+                "option": "Version control (e.g. Git)"
+              }, 
+              {
+                "option": "Automated testing (e.g Travis CI)"
+              }, 
+              {
+                "option": "Code coverage analysis (e.g. Coveralls)"
+              }, 
+              {
+                "option": "Jupyter Notebooks"
+              }, 
+              {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+              }, 
+              {
+                "option": "CMake"
+              }, 
+              {
+                "option": " Integrated development environments"
+              }
+            ]
+          }, 
+          "field_type": "multiselect", 
+          "is_required": true, 
+          "title": "Which tools/services have you started using as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Select all that apply. Note that some tools may not have been taught in your workshop.", 
+          "field_data": {
+            "max_choices": null, 
+            "min_choices": null, 
+            "options": [
+              {
+                "option": "Version control (e.g. Git)"
+              }, 
+              {
+                "option": "Automated testing (e.g Travis CI)"
+              }, 
+              {
+                "option": "Code coverage analysis (e.g. Coveralls)"
+              }, 
+              {
+                "option": "Jupyter Notebooks"
+              }, 
+              {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+              }, 
+              {
+                "option": "CMake"
+              }, 
+              {
+                "option": " Integrated development environments"
+              }
+            ]
+          }, 
+          "field_type": "multiselect", 
+          "is_required": true, 
+          "title": "Which tools/services are you using better than before as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Select all that apply. Note that some tools may not have been taught in your workshop.", 
+          "field_data": {
+            "max_choices": null, 
+            "min_choices": null, 
+            "options": [
+              {
+                "option": "Version control (e.g. Git)"
+              }, 
+              {
+                "option": "Automated testing (e.g Travis CI)"
+              }, 
+              {
+                "option": "Code coverage analysis (e.g. Coveralls)"
+              }, 
+              {
+                "option": "Jupyter Notebooks"
+              }, 
+              {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+              }, 
+              {
+                "option": "CMake"
+              }, 
+              {
+                "option": " Integrated development environments"
+              }
+            ]
+          }, 
+          "field_type": "multiselect", 
+          "is_required": true, 
+          "title": "Which tools/services are you using in the same way as before as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "This refers to platforms like Travis CI and GitLab CI", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of Automated Testing changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "This refers to tools like Git, Subversion, Mercurial etc.", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of Version Control changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "This refers to platforms like Coveralls and Codecov", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of Code coverage analysis changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "This includes classical Jupyter Notebooks as well as JupyterLab", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of Jupyter Notebooks changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Note that this topic may not have been taught in your workshop", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of CMake changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Note that this topic may not have been taught in your workshop", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of Integrated development environments changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "This refers to peer-review of code via e.g. pull requests or code reading sessions", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of Code review changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "This refers to the documentation hosting website", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of Read the docs changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "This refers to hosting project or personal webpages using GitHub/GitLab/BitBucket Pages", 
+          "field_data": {
+            "display_type": "radio", 
+            "options": [
+              {
+                "option": "I don't use this tool"
+              }, 
+              {
+                "option": "I'm using this tool in the same way as before"
+              }, 
+              {
+                "option": "I'm using this tool better than before"
+              }, 
+              {
+                "option": "I started using this tool"
+              }
+            ], 
+            "radio_display_type": "vertical"
+          }, 
+          "field_type": "single_choice", 
+          "is_required": true, 
+          "title": "How has your usage of GitHub/GitLab/BitBucket Pages changed as a result of attending the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "", 
+          "field_data": {}, 
+          "field_type": "bool", 
+          "is_required": true, 
+          "title": "Has it become easier for you to collaborate on software development with your colleagues and collaborators?", 
+          "type": "question"
+        }, 
+        {
+          "description": "", 
+          "field_data": {}, 
+          "field_type": "bool", 
+          "is_required": true, 
+          "title": "Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Write as much as you like", 
+          "field_data": {
+            "max_length": null, 
+            "max_words": null, 
+            "multiline": true
+          }, 
+          "field_type": "text", 
+          "is_required": false, 
+          "title": "What else has changed in how you write code for your research after attending a CodeRefinery workshop?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Write as much as you like", 
+          "field_data": {
+            "max_length": null, 
+            "max_words": null, 
+            "multiline": true
+          }, 
+          "field_type": "text", 
+          "is_required": false, 
+          "title": "Do you have any recommendations on how we should change the CodeRefinery curriculum?", 
+          "type": "question"
+        }, 
+        {
+          "description": "Select all that apply.", 
+          "field_data": {
+            "max_choices": null, 
+            "min_choices": null, 
+            "options": [
+              {
+                "option": "Version control (e.g. Git)"
+              }, 
+              {
+                "option": "Automated testing (e.g Travis CI)"
+              }, 
+              {
+                "option": "Code coverage analysis (e.g. Coveralls)"
+              }, 
+              {
+                "option": "Jupyter Notebooks"
+              }, 
+              {
+                "option": "Code review (e.g. via pull requests)"
+              }, 
+              {
+                "option": "Documentation hosting platforms (e.g. Read the docs or GitHub Pages)"
+              }, 
+              {
+                "option": "CMake"
+              }, 
+              {
+                "option": " Integrated development environments"
+              }
+            ]
+          }, 
+          "field_type": "multiselect", 
+          "is_required": true, 
+          "title": "Which tools/services are you not yet using?", 
+          "type": "question"
+        }
+      ], 
+      "description": "Thank you for agreeing to fill this form! \nIt will help us improve our CodeRefinery workshops and ensure that the project can live on.", 
+      "display_as_section": true, 
+      "title": "Post-workshop survey", 
+      "type": "section"
+    }
+  ], 
+  "version": 1
+}
