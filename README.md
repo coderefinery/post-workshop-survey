@@ -28,6 +28,14 @@ The survey contains the following questions:
 - Has it become easier for you to collaborate on software development with your colleagues and collaborators?
 - Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?
 
+## License conditions
+This work is licensed under CC 4.0 BY, see the file LICENSE
+
+### Attribution
+When using the data from the CodeRefinery post-workshop survey, please state following attribution:
+"Post-workshop survey" by [CodeRefinery](https://coderefinery.org) is licensed under CC BY 4.0
+
+## Processing steps
 [A script](preprocess-survey-responses.py) 
 is first used to preprocess the raw data
  and a [Jupyter Notebook](survey_analysis.ipynb) is 
