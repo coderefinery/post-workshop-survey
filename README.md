@@ -37,3 +37,9 @@ used to analyze the data. The main results are reported in three figures, showin
 - [Answers to yes/no questions](yes_no_questions.png)
 - [How tools' usage has changed after attending workshop](heatmap.png)
 
+## License conditions
+This work is licensed under CC 4.0 BY, see the file LICENSE
+
+### Attribution
+When using the data from the CodeRefinery post-workshop survey, please state following attribution:
+"Post-workshop survey" by [CodeRefinery](https://coderefinery.org) is licensed under CC BY 4.0
