@@ -1,3 +1,7 @@
+
+
+[![DOI](https://zenodo.org/badge/111420351.svg)](https://zenodo.org/badge/latestdoi/111420351)
+
 # CodeRefinery post-workshop survey
 
 A survey is sent out to all participants of CodeRefinery workshops 
