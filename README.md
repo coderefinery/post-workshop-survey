@@ -43,9 +43,17 @@ When using the data from the CodeRefinery post-workshop survey, please state fol
 [A script](preprocess-survey-responses.py) 
 is first used to preprocess the raw data
  and a [Jupyter Notebook](survey_analysis.ipynb) is 
-used to analyze the data. The main results are reported in three figures, showing:
+used to analyze the data. 
 
-- [Job title of participants](position_pie.png)    
-- [Answers to yes/no questions](yes_no_questions.png)
-- [How tools' usage has changed after attending workshop](heatmap.png)
+## Results
+
+The main results are reported in these three figures:
+
+#### Impact on code quality and collaboration
+
+![Answers to yes/no questions](yes_no_questions.png)
+
+#### Impact on usage of software development tools
+
+![How tools' usage has changed after attending workshop](heatmap.png)
 
