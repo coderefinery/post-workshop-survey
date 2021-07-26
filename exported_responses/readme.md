@@ -32,12 +32,12 @@ Except for the first question of each survey "which workshop did you attend?", t
 
 ## Questions
 * 194-48 has "Participation style" question (e.g. "individual learner", "individual helper / exercise leader (online)" etc.)
-* In 39-5, "Which tools/services have you started using as a result of attending the workshop?" while in the other 3, "Which tools/services **/workflows** have you started using as a result of attending the workshop?" ("/workflows" is added)
+* In 39-5, the 4 questions starting with "Which tools/services ..." don't have "**/workflows**" after "services", while in the other 3 surveys they have. 
 * 109-24 and 194-48 has "Would you recommend your colleagues to attend a CodeRefinery workshop?" question with 5 options 
 
 ## Choice alternatives
 * 109-24 and 194-48 has "None of the above" option for "Would you judge your code to be better reusable/reproducible/modular/documented as a result of attending the workshop?" question
-* For "Which tools/services have you started using as a result of attending the workshop?":
+* For the 4 questions starting with "Which tools/services ...":
     * in 39-5, choice alternatives ;
         - are in different order from the other 3, and
         - are fewer than the other 3
