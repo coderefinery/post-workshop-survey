@@ -50,9 +50,9 @@ The main results are reported in these three figures:
 
 #### Impact on code quality and collaboration
 
-![Answers to yes/no questions](yes_no_questions.png)
+![Answers to yes/no questions](figures/yes_no_questions.png)
 
 #### Impact on usage of software development tools
 
-![How tools' usage has changed after attending workshop](heatmap.png)
+![How tools' usage has changed after attending workshop](figures/heatmap.png)
 
