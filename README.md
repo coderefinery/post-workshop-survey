@@ -11,7 +11,7 @@ around 3-6 months after the workshop has taken place.
 
 ## Survey questions
 
-The survey contains the following questions (they are also recorded in the [survey.josn](survey.json) file):
+The survey contains the following questions (they are also recorded in the [questions/survey.json](questions/survey.json) file):
 
 - Background information
   - Which workshop did you attend?
