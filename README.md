@@ -1,6 +1,5 @@
-
-
 [![DOI](https://zenodo.org/badge/111420351.svg)](https://zenodo.org/badge/latestdoi/111420351)
+[![License](https://img.shields.io/badge/license-%20CC--BY-blue.svg)](LICENSE)
 
 # CodeRefinery post-workshop survey
 
