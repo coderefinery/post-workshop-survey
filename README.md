@@ -77,12 +77,9 @@ The survey contains the following questions (they are also recorded in the [ques
     (write as much as you like)
 
 
-## License conditions
+## License and attribution
 
 This work is licensed under CC 4.0 BY, see the [LICENSE](LICENSE) file.
-
-
-### Attribution
 
 When using the data from the CodeRefinery post-workshop survey, please state following attribution:
 "Post-workshop survey" by [CodeRefinery](https://coderefinery.org), licensed under CC BY 4.0.
