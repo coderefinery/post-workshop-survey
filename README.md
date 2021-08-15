@@ -1,5 +1,7 @@
 [![DOI](https://zenodo.org/badge/111420351.svg)](https://zenodo.org/badge/latestdoi/111420351)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coderefinery/post-workshop-survey/HEAD)
 [![License](https://img.shields.io/badge/license-%20CC--BY-blue.svg)](LICENSE)
+
 
 # CodeRefinery post-workshop survey
 
