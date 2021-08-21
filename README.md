@@ -99,7 +99,7 @@ The main results are reported in these three figures:
 
 #### Impact on code quality and collaboration
 
-![Answers to yes/no questions](figures/yes_no_questions.png)
+![Answers to yes/no questions](figures/yes-no-questions.png)
 
 
 #### Impact on usage of software development tools
