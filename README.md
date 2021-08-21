@@ -97,6 +97,11 @@ data.
 The main results are reported in these three figures:
 
 
+#### Position
+
+![Job title/ position/ occupation](figures/position.png)
+
+
 #### Impact on code quality and collaboration
 
 ![Answers to yes/no questions](figures/yes-no-questions.png)
