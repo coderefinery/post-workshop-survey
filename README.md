@@ -87,7 +87,7 @@ When using the data from the CodeRefinery post-workshop survey, please state fol
 
 ## Processing steps
 
-[A script](preprocess-survey-responses.py) is first used to preprocess the raw
+[A script](preprocess/preprocess-survey-responses.py) is first used to preprocess the raw
 data and a [Jupyter Notebook](survey_analysis.ipynb) is used to analyze the
 data.
 
