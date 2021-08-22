@@ -85,13 +85,6 @@ When using the data from the CodeRefinery post-workshop survey, please state fol
 "Post-workshop survey" by [CodeRefinery](https://coderefinery.org), licensed under CC BY 4.0.
 
 
-## Processing steps
-
-[A script](preprocess/preprocess-typeform.py) is first used to preprocess the raw
-data and a [Jupyter Notebook](survey_analysis.ipynb) is used to analyze the
-data.
-
-
 ## Results
 
 The main results are reported in these three figures:
