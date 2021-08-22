@@ -1,8 +1,8 @@
 # Description of files
 
-## event_194_survey_48_2021-07-14-1534-cest.csv
+## event_194_survey_48.csv
 * [post-workshop-survey-2020](https://indico.neic.no/event/194/manage/surveys/48/)
-* submission from 18 June 2021 to 13 Jul 2021 (at the time of esporting this file at 2021-07-14-1534-cest)
+* submission from 18 June 2021 to 19 Jul 2021
 * Workshops covered: Trondheim, Oct 2019 - Online, Nov 2020
 * 74 submissions
 
