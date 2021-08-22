@@ -9,6 +9,43 @@ A survey is sent out to all participants of CodeRefinery workshops
 around 3-6 months after the workshop has taken place.
 
 
+## License and attribution
+
+This work is licensed under CC 4.0 BY, see the [LICENSE](LICENSE) file.
+
+When using the data from the CodeRefinery post-workshop survey, please state following attribution:
+"Post-workshop survey" by [CodeRefinery](https://coderefinery.org), licensed under CC BY 4.0.
+
+
+## Results
+
+The main results (you can re-run them
+[here](https://mybinder.org/v2/gh/coderefinery/post-workshop-survey/HEAD?filepath=survey_analysis.ipynb))
+are reported in these three figures:
+
+
+#### Position
+
+![Job title/ position/ occupation](figures/position.png)
+
+
+#### Impact on code quality and collaboration
+
+![Answers to yes/no questions](figures/yes-no-questions.png)
+
+
+#### Impact on usage of software development tools
+
+![How tools' usage has changed after attending workshop](figures/heatmap.png)
+
+
+## Questions which we have not analyzed yet
+
+- "Would you recommend your colleagues to attend a CodeRefinery workshop?"
+- "Participation style"
+- Impact over time
+
+
 ## Survey questions
 
 The survey contains the following questions (they are also recorded in the [questions/survey.json](questions/survey.json) file):
@@ -75,40 +112,3 @@ The survey contains the following questions (they are also recorded in the [ques
     (write as much as you like)
   - Do you have any recommendations on how we should change the CodeRefinery curriculum?
     (write as much as you like)
-
-
-## License and attribution
-
-This work is licensed under CC 4.0 BY, see the [LICENSE](LICENSE) file.
-
-When using the data from the CodeRefinery post-workshop survey, please state following attribution:
-"Post-workshop survey" by [CodeRefinery](https://coderefinery.org), licensed under CC BY 4.0.
-
-
-## Results
-
-The main results (you can re-run them
-[here](https://mybinder.org/v2/gh/coderefinery/post-workshop-survey/HEAD?filepath=survey_analysis.ipynb))
-are reported in these three figures:
-
-
-#### Position
-
-![Job title/ position/ occupation](figures/position.png)
-
-
-#### Impact on code quality and collaboration
-
-![Answers to yes/no questions](figures/yes-no-questions.png)
-
-
-#### Impact on usage of software development tools
-
-![How tools' usage has changed after attending workshop](figures/heatmap.png)
-
-
-## Questions which we have not analyzed yet
-
-- "Would you recommend your colleagues to attend a CodeRefinery workshop?"
-- "Participation style"
-- Impact over time
