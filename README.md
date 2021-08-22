@@ -111,3 +111,4 @@ are reported in these three figures:
 
 - "Would you recommend your colleagues to attend a CodeRefinery workshop?"
 - "Participation style"
+- Impact over time
