@@ -31,14 +31,6 @@
 
 # Differences in questions and choice alternatives
 
-Except for the first question of each survey "which workshop did you attend?",
-the surveys have mostly the same questions and choice alternatives. However,
-the followings are different and needs some attentions when it comes to
-processing.
-
-## Sectioning 
-2019-c-2020.csv is divided into 2 sections of "Background information" and "Impact of the workshop", while the other 3 survey responses has only "Post-workshop survey" section
-
 ## Questions
 * 2019-c-2020.csv has "Participation style" question (e.g. "individual learner", "individual helper / exercise leader (online)" etc.)
 * In 2018.csv, the 4 questions starting with "Which tools/services ..." don't have "**/workflows**" after "services", while in the other 3 surveys they have. 
