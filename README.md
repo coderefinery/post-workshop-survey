@@ -105,3 +105,9 @@ are reported in these three figures:
 #### Impact on usage of software development tools
 
 ![How tools' usage has changed after attending workshop](figures/heatmap.png)
+
+
+## Questions which we have not analyzed yet
+
+- "Would you recommend your colleagues to attend a CodeRefinery workshop?"
+- "Participation style"
