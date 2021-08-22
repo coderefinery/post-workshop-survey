@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/111420351.svg)](https://zenodo.org/badge/latestdoi/111420351)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coderefinery/post-workshop-survey/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coderefinery/post-workshop-survey/HEAD?filepath=survey_analysis.ipynb)
 [![License](https://img.shields.io/badge/license-%20CC--BY-blue.svg)](LICENSE)
 
 
@@ -87,7 +87,9 @@ When using the data from the CodeRefinery post-workshop survey, please state fol
 
 ## Results
 
-The main results are reported in these three figures:
+The main results (you can re-run them
+[here](https://mybinder.org/v2/gh/coderefinery/post-workshop-survey/HEAD?filepath=survey_analysis.ipynb))
+are reported in these three figures:
 
 
 #### Position
