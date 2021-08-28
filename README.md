@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/111420351.svg)](https://zenodo.org/badge/latestdoi/111420351)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2671576.svg)](https://doi.org/10.5281/zenodo.2671576)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coderefinery/post-workshop-survey/HEAD?filepath=survey_analysis.ipynb)
 [![License](https://img.shields.io/badge/license-%20CC--BY-blue.svg)](LICENSE)
 
