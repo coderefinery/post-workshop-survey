@@ -1,1 +1,400 @@
-{"sections":[{"content":[{"description":"If you attended multiple times, please choose the first workshop you attended, and answer the further questions given the first workshop in mind.","field_data":{"display_type":"radio","options":[{"option":"Trondheim, Oct 2019"},{"option":"Stockholm, Nov 2019"},{"option":"Lille, Nov-Dec 2019"},{"option":"Espoo, Dec 2019"},{"option":"Trondheim, Feb 2020"},{"option":"Online, May-June 2020"},{"option":"Online, Oct 2020"},{"option":"Online, Nov 2020"}],"radio_display_type":"horizontal"},"field_type":"single_choice","is_required":true,"title":"Which workshop did you attend?","type":"question"},{"description":"","field_data":{"display_type":"radio","options":[{"option":"Individual learner"},{"option":"Individual helper / exercise leader (online)"},{"option":"Team learner (online)"},{"option":"Team helper / exercise leader (online)"}],"radio_display_type":"horizontal"},"field_type":"single_choice","is_required":false,"title":"Participation style","type":"question"},{"description":"","field_data":{"display_type":"radio","options":[{"option":"Undergraduate student"},{"option":"Graduate student"},{"option":"Postdoc"},{"option":"Researcher"},{"option":"Professor"},{"option":"Research software engineer / Scientific programmer"},{"option":"Industry"},{"option":"Other"}],"radio_display_type":"horizontal"},"field_type":"single_choice","is_required":true,"title":"What is your current position?","type":"question"}],"description":"","display_as_section":true,"title":"Background information","type":"section"},{"content":[{"description":"Choose the descriptors that apply to your code","field_data":{"max_choices":null,"min_choices":null,"options":[{"option":"More reusable"},{"option":"More reproducible"},{"option":"More modular"},{"option":"Better documented"},{"option":"None of the above"}]},"field_type":"multiselect","is_required":true,"title":"Would you judge your code to be better reusable/reproducible/modular/documented as a result of attending the workshop?","type":"question"},{"description":"Select all that apply. Note that some tools may not have been taught in your workshop.","field_data":{"max_choices":null,"min_choices":null,"options":[{"option":"Version control (e.g. Git)"},{"option":"Code review (e.g. via pull requests)"},{"option":"Testing (e.g. pytest)"},{"option":"Automated testing (e.g Travis CI or GitHub Actions of GitLab CI)"},{"option":"Code coverage analysis (e.g. Coveralls)"},{"option":"Jupyter Notebooks"},{"option":"Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"},{"option":"Workflow management tools (e.g. Snakemake)"},{"option":"Containers (e.g. Docker or Singularity)"},{"option":"Conda environments and virtual environments"},{"option":"None of the above"}]},"field_type":"multiselect","is_required":true,"title":"Which tools/services/workflows have you started using as a result of attending the workshop?","type":"question"},{"description":"Select all that apply. Note that some tools may not have been taught in your workshop.","field_data":{"max_choices":null,"min_choices":null,"options":[{"option":"Version control (e.g. Git)"},{"option":"Code review (e.g. via pull requests)"},{"option":"Testing (e.g. pytest)"},{"option":"Automated testing (e.g Travis CI or GitHub Actions or GitLab CI)"},{"option":"Code coverage analysis (e.g. Coveralls)"},{"option":"Jupyter Notebooks"},{"option":"Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"},{"option":"Workflow management tools (e.g. Snakemake)"},{"option":"Containers (e.g. Docker or Singularity)"},{"option":"Conda environments and virtual environments"},{"option":"None of the above"}]},"field_type":"multiselect","is_required":true,"title":"Which tools/services/workflows are you using better than before as a result of attending the workshop?","type":"question"},{"description":"Select all that apply. Note that some tools may not have been taught in your workshop.","field_data":{"max_choices":null,"min_choices":null,"options":[{"option":"Version control (e.g. Git)"},{"option":"Code review (e.g. via pull requests)"},{"option":"Testing (e.g. pytest)"},{"option":"Automated testing (e.g Travis CI or GitHub Actions or GitLab CI)"},{"option":"Code coverage analysis (e.g. Coveralls)"},{"option":"Jupyter Notebooks"},{"option":"Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"},{"option":"Workflow management tools (e.g. Snakemake)"},{"option":"Containers (e.g. Docker or Singularity)"},{"option":"Conda environments and virtual environments"},{"option":"None of the above"}]},"field_type":"multiselect","is_required":true,"title":"Which tools/services/workflows are you using in the same way as you did before attending the workshop?","type":"question"},{"description":"Select all that apply. Note that some tools may not have been taught in your workshop.","field_data":{"max_choices":null,"min_choices":null,"options":[{"option":"Version control (e.g. Git)"},{"option":"Code review (e.g. via pull requests)"},{"option":"Testing (e.g. pytest)"},{"option":"Automated testing (e.g Travis CI or GitHub Actions or GitLab CI)"},{"option":"Code coverage analysis (e.g. Coveralls)"},{"option":"Jupyter Notebooks"},{"option":"Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"},{"option":"Workflow management tools (e.g. Snakemake)"},{"option":"Containers (e.g. Docker or Singularity)"},{"option":"Conda environments and virtual environments"},{"option":"None of the above"}]},"field_type":"multiselect","is_required":true,"title":"Which tools/services/workflows are you not using?","type":"question"},{"description":"","field_data":{},"field_type":"bool","is_required":true,"title":"Has it become easier for you to collaborate on software development with your colleagues and collaborators?","type":"question"},{"description":"","field_data":{},"field_type":"bool","is_required":true,"title":"Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?","type":"question"},{"description":"","field_data":{"display_type":"radio","options":[{"option":"Yes absolutely"},{"option":"Probably"},{"option":"I don't know"},{"option":"Probably not"},{"option":"Absolutely not"}],"radio_display_type":"horizontal"},"field_type":"single_choice","is_required":false,"title":"Would you recommend your colleagues to attend a CodeRefinery workshop?","type":"question"},{"description":"Write as much as you like","field_data":{"max_length":null,"max_words":null,"multiline":true},"field_type":"text","is_required":false,"title":"What else has changed in how you write code for your research after attending a CodeRefinery workshop?","type":"question"},{"description":"Write as much as you like","field_data":{"max_length":null,"max_words":null,"multiline":true},"field_type":"text","is_required":false,"title":"Do you have any recommendations on how we should change the CodeRefinery curriculum?","type":"question"}],"description":"","display_as_section":true,"title":"Impact of the workshop","type":"section"}],"version":1}
+{
+    "sections": [
+        {
+            "content": [
+                {
+                    "description": "If you attended multiple times, please choose the first workshop you attended, and answer the further questions given the first workshop in mind.",
+                    "field_data": {
+                        "display_type": "radio",
+                        "options": [
+                            {
+                                "option": "Trondheim, Oct 2019"
+                            },
+                            {
+                                "option": "Stockholm, Nov 2019"
+                            },
+                            {
+                                "option": "Lille, Nov-Dec 2019"
+                            },
+                            {
+                                "option": "Espoo, Dec 2019"
+                            },
+                            {
+                                "option": "Trondheim, Feb 2020"
+                            },
+                            {
+                                "option": "Online, May-June 2020"
+                            },
+                            {
+                                "option": "Online, Oct 2020"
+                            },
+                            {
+                                "option": "Online, Nov 2020"
+                            }
+                        ],
+                        "radio_display_type": "horizontal"
+                    },
+                    "field_type": "single_choice",
+                    "is_required": true,
+                    "title": "Which workshop did you attend?",
+                    "type": "question"
+                },
+                {
+                    "description": "",
+                    "field_data": {
+                        "display_type": "radio",
+                        "options": [
+                            {
+                                "option": "Individual learner"
+                            },
+                            {
+                                "option": "Individual helper / exercise leader (online)"
+                            },
+                            {
+                                "option": "Team learner (online)"
+                            },
+                            {
+                                "option": "Team helper / exercise leader (online)"
+                            }
+                        ],
+                        "radio_display_type": "horizontal"
+                    },
+                    "field_type": "single_choice",
+                    "is_required": false,
+                    "title": "Participation style",
+                    "type": "question"
+                },
+                {
+                    "description": "",
+                    "field_data": {
+                        "display_type": "radio",
+                        "options": [
+                            {
+                                "option": "Undergraduate student"
+                            },
+                            {
+                                "option": "Graduate student"
+                            },
+                            {
+                                "option": "Postdoc"
+                            },
+                            {
+                                "option": "Researcher"
+                            },
+                            {
+                                "option": "Professor"
+                            },
+                            {
+                                "option": "Research software engineer / Scientific programmer"
+                            },
+                            {
+                                "option": "Industry"
+                            },
+                            {
+                                "option": "Other"
+                            }
+                        ],
+                        "radio_display_type": "horizontal"
+                    },
+                    "field_type": "single_choice",
+                    "is_required": true,
+                    "title": "What is your current position?",
+                    "type": "question"
+                }
+            ],
+            "description": "",
+            "display_as_section": true,
+            "title": "Background information",
+            "type": "section"
+        },
+        {
+            "content": [
+                {
+                    "description": "Choose the descriptors that apply to your code",
+                    "field_data": {
+                        "max_choices": null,
+                        "min_choices": null,
+                        "options": [
+                            {
+                                "option": "More reusable"
+                            },
+                            {
+                                "option": "More reproducible"
+                            },
+                            {
+                                "option": "More modular"
+                            },
+                            {
+                                "option": "Better documented"
+                            },
+                            {
+                                "option": "None of the above"
+                            }
+                        ]
+                    },
+                    "field_type": "multiselect",
+                    "is_required": true,
+                    "title": "Would you judge your code to be better reusable/reproducible/modular/documented as a result of attending the workshop?",
+                    "type": "question"
+                },
+                {
+                    "description": "Select all that apply. Note that some tools may not have been taught in your workshop.",
+                    "field_data": {
+                        "max_choices": null,
+                        "min_choices": null,
+                        "options": [
+                            {
+                                "option": "Version control (e.g. Git)"
+                            },
+                            {
+                                "option": "Code review (e.g. via pull requests)"
+                            },
+                            {
+                                "option": "Testing (e.g. pytest)"
+                            },
+                            {
+                                "option": "Automated testing (e.g Travis CI or GitHub Actions of GitLab CI)"
+                            },
+                            {
+                                "option": "Code coverage analysis (e.g. Coveralls)"
+                            },
+                            {
+                                "option": "Jupyter Notebooks"
+                            },
+                            {
+                                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"
+                            },
+                            {
+                                "option": "Workflow management tools (e.g. Snakemake)"
+                            },
+                            {
+                                "option": "Containers (e.g. Docker or Singularity)"
+                            },
+                            {
+                                "option": "Conda environments and virtual environments"
+                            },
+                            {
+                                "option": "None of the above"
+                            }
+                        ]
+                    },
+                    "field_type": "multiselect",
+                    "is_required": true,
+                    "title": "Which tools/services/workflows have you started using as a result of attending the workshop?",
+                    "type": "question"
+                },
+                {
+                    "description": "Select all that apply. Note that some tools may not have been taught in your workshop.",
+                    "field_data": {
+                        "max_choices": null,
+                        "min_choices": null,
+                        "options": [
+                            {
+                                "option": "Version control (e.g. Git)"
+                            },
+                            {
+                                "option": "Code review (e.g. via pull requests)"
+                            },
+                            {
+                                "option": "Testing (e.g. pytest)"
+                            },
+                            {
+                                "option": "Automated testing (e.g Travis CI or GitHub Actions or GitLab CI)"
+                            },
+                            {
+                                "option": "Code coverage analysis (e.g. Coveralls)"
+                            },
+                            {
+                                "option": "Jupyter Notebooks"
+                            },
+                            {
+                                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"
+                            },
+                            {
+                                "option": "Workflow management tools (e.g. Snakemake)"
+                            },
+                            {
+                                "option": "Containers (e.g. Docker or Singularity)"
+                            },
+                            {
+                                "option": "Conda environments and virtual environments"
+                            },
+                            {
+                                "option": "None of the above"
+                            }
+                        ]
+                    },
+                    "field_type": "multiselect",
+                    "is_required": true,
+                    "title": "Which tools/services/workflows are you using better than before as a result of attending the workshop?",
+                    "type": "question"
+                },
+                {
+                    "description": "Select all that apply. Note that some tools may not have been taught in your workshop.",
+                    "field_data": {
+                        "max_choices": null,
+                        "min_choices": null,
+                        "options": [
+                            {
+                                "option": "Version control (e.g. Git)"
+                            },
+                            {
+                                "option": "Code review (e.g. via pull requests)"
+                            },
+                            {
+                                "option": "Testing (e.g. pytest)"
+                            },
+                            {
+                                "option": "Automated testing (e.g Travis CI or GitHub Actions or GitLab CI)"
+                            },
+                            {
+                                "option": "Code coverage analysis (e.g. Coveralls)"
+                            },
+                            {
+                                "option": "Jupyter Notebooks"
+                            },
+                            {
+                                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"
+                            },
+                            {
+                                "option": "Workflow management tools (e.g. Snakemake)"
+                            },
+                            {
+                                "option": "Containers (e.g. Docker or Singularity)"
+                            },
+                            {
+                                "option": "Conda environments and virtual environments"
+                            },
+                            {
+                                "option": "None of the above"
+                            }
+                        ]
+                    },
+                    "field_type": "multiselect",
+                    "is_required": true,
+                    "title": "Which tools/services/workflows are you using in the same way as you did before attending the workshop?",
+                    "type": "question"
+                },
+                {
+                    "description": "Select all that apply. Note that some tools may not have been taught in your workshop.",
+                    "field_data": {
+                        "max_choices": null,
+                        "min_choices": null,
+                        "options": [
+                            {
+                                "option": "Version control (e.g. Git)"
+                            },
+                            {
+                                "option": "Code review (e.g. via pull requests)"
+                            },
+                            {
+                                "option": "Testing (e.g. pytest)"
+                            },
+                            {
+                                "option": "Automated testing (e.g Travis CI or GitHub Actions or GitLab CI)"
+                            },
+                            {
+                                "option": "Code coverage analysis (e.g. Coveralls)"
+                            },
+                            {
+                                "option": "Jupyter Notebooks"
+                            },
+                            {
+                                "option": "Documentation hosting platforms (e.g. Read the Docs or GitHub Pages or GitLab Pages)"
+                            },
+                            {
+                                "option": "Workflow management tools (e.g. Snakemake)"
+                            },
+                            {
+                                "option": "Containers (e.g. Docker or Singularity)"
+                            },
+                            {
+                                "option": "Conda environments and virtual environments"
+                            },
+                            {
+                                "option": "None of the above"
+                            }
+                        ]
+                    },
+                    "field_type": "multiselect",
+                    "is_required": true,
+                    "title": "Which tools/services/workflows are you not using?",
+                    "type": "question"
+                },
+                {
+                    "description": "",
+                    "field_data": {},
+                    "field_type": "bool",
+                    "is_required": true,
+                    "title": "Has it become easier for you to collaborate on software development with your colleagues and collaborators?",
+                    "type": "question"
+                },
+                {
+                    "description": "",
+                    "field_data": {},
+                    "field_type": "bool",
+                    "is_required": true,
+                    "title": "Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?",
+                    "type": "question"
+                },
+                {
+                    "description": "",
+                    "field_data": {
+                        "display_type": "radio",
+                        "options": [
+                            {
+                                "option": "Yes absolutely"
+                            },
+                            {
+                                "option": "Probably"
+                            },
+                            {
+                                "option": "I don't know"
+                            },
+                            {
+                                "option": "Probably not"
+                            },
+                            {
+                                "option": "Absolutely not"
+                            }
+                        ],
+                        "radio_display_type": "horizontal"
+                    },
+                    "field_type": "single_choice",
+                    "is_required": false,
+                    "title": "Would you recommend your colleagues to attend a CodeRefinery workshop?",
+                    "type": "question"
+                },
+                {
+                    "description": "Write as much as you like",
+                    "field_data": {
+                        "max_length": null,
+                        "max_words": null,
+                        "multiline": true
+                    },
+                    "field_type": "text",
+                    "is_required": false,
+                    "title": "What else has changed in how you write code for your research after attending a CodeRefinery workshop?",
+                    "type": "question"
+                },
+                {
+                    "description": "Write as much as you like",
+                    "field_data": {
+                        "max_length": null,
+                        "max_words": null,
+                        "multiline": true
+                    },
+                    "field_type": "text",
+                    "is_required": false,
+                    "title": "Do you have any recommendations on how we should change the CodeRefinery curriculum?",
+                    "type": "question"
+                }
+            ],
+            "description": "",
+            "display_as_section": true,
+            "title": "Impact of the workshop",
+            "type": "section"
+        }
+    ],
+    "version": 1
+}
