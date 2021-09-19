@@ -1,11 +1,18 @@
 # Description of files
 
+## 2019-d-2021.csv
 
-## 2019-c-2020.csv
+- <https://indico.neic.no/event/194/manage/surveys/48/>
+- Submission from 18 June 2021 to **9 sep 2021**
+- Workshops covered: Trondheim, Oct 2019 - Online, May 2021
+
+
+## 2019-c-2020.csv 
 
 - <https://indico.neic.no/event/194/manage/surveys/48/>
 - Submission from 18 June 2021 to 19 Jul 2021
 - Workshops covered: Trondheim, Oct 2019 - Online, Nov 2020
+- Deprecated due to the updated file from the same survey
 
 
 ## 2019-b.csv
